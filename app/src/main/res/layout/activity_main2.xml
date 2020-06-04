@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#A9009688"
+    tools:context=".Main2Activity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dip"
+        android:layout_height="250dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/group" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="28dp"
+        android:background="#E800D4D0"
+        android:onClick="goToActivity3"
+        android:text="Start"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
+
